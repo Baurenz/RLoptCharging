@@ -1,0 +1,12 @@
+{
+    "buses": 2,
+    "connections": [
+        [1, 1],
+        [1, 1]
+    ],
+    "components": {
+        "bus0": {"pv": "pv1", "load": "load1"},
+        "bus1": {"pv": "pv2", "load": "load1"}
+    },
+    "ext_grid_bus": "bus0"
+}

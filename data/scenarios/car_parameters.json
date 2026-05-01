@@ -1,0 +1,17 @@
+{
+  "Car1": {
+    "EV_capacity": 30,
+    "charging_effic": 0.91,
+    "discharging_effic": 0.91,
+    "charging_rate": 11,
+    "discharging_rate": 11
+  },
+  "Car2": {
+    "EV_capacity": 40,
+    "charging_effic": 0.95,
+    "discharging_effic": 0.95,
+    "charging_rate": 13,
+    "discharging_rate": 13
+  }
+}
+

@@ -1,0 +1,15 @@
+/rl_OptV2GEnv/files/Results/
+/solvers/results/
+/solvers/models/
+/solvers/evaluation/Results
+/network_env/results/
+
+/create_data/
+
+/data/plots
+
+/data/dynamic_profiles/20000/
+/solvers/train/training_results_continious/
+
+**/__pycache__/
+*.py[cod]

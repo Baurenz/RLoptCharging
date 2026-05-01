@@ -1,0 +1,12 @@
+{
+  "buses": 4,
+  "ext_grid_bus": "bus0",
+  "connections": [
+    [1, 1],
+    [1, 1]
+  ],
+  "components": {
+    "bus0": {"pv": {"profile": "pv1", "kWp": 15}, "cs": {"v2g": false, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus1": {"pv": {"profile": "pv1", "kWp": 15}, "cs": {"v2g": false, "max_e_mwh": 0.05, "p_mw": 0.011}}
+  }
+}

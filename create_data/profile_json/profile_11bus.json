@@ -1,0 +1,30 @@
+{
+  "buses": 11,
+  "ext_grid_bus": "bus0",
+  "connections": [
+    [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1],
+    [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0],
+    [0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+  ],
+  "components": {
+    "bus0": {"load": "load1", "pv": "pv1"},
+    "bus1": {"load": "load1", "pv": "pv1", "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}, "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus2": {"load": "load1", "pv": "pv1", "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}, "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus3": {"load": "load1", "pv": "pv1", "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}},
+    "bus4": {"load": "load2", "pv": "pv1"},
+    "bus5": {"load": "load1", "pv": "pv1"},
+    "bus6": {"load": "load1", "pv": "pv1", "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}, "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus7": {"load": "load1", "pv": "pv1", "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus8": {"load": "load2", "pv": "pv1", "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}, "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus9": {"load": "load2", "pv": "pv1", "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}, "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}},
+    "bus10": {"load": "load2", "pv": "pv2"}
+  }
+}

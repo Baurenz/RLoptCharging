@@ -1,0 +1,12 @@
+{
+    "buses": 2,
+    "connections": [
+        [1, 1],
+        [1, 1]
+    ],
+    "components": {
+        "bus0": {"pv": "pv2", "load": "load2","ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}},
+        "bus1": {"pv": "pv2", "load": "load1", "cs": {"v2g": true, "max_e_mwh": 0.05, "p_mw": 0.011}, "ess": {"p_mw": 0.015, "q_mvar": 0.0, "max_e_mwh": 0.015, "soc": 100.0}}
+    },
+    "ext_grid_bus": "bus0"
+}
